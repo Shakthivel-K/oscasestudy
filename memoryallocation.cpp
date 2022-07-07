@@ -90,7 +90,7 @@ blockSize[wstIdx] -= processSize[i];
 }
 cout<<"Worst Fit Method\n";
 cout << "\nProcess No.\tProcess Size\tBlock no.\n";
-for (int i = 0; i < n; i++)
+for (int i = 0; i <n; i++)
 {
 cout << " " << i+1 << "\t\t" << processSize[i] << "\t\t";
 if (allocation[i] != -1)
@@ -107,7 +107,7 @@ cout<<"Enter the no. of blocks :: ";
 cin>>m;
 int blockSize[m];
 cout<<"Enter the blockSizes :: ";
-for(int i=0;i<m;i++)
+for(int i=0;i<=m;i++)
 {
 cin>>blockSize[i];
 }
@@ -115,7 +115,7 @@ cout<<"Enter the no. of process :: ";
 cin>>n;
 int processSize[n];
 cout<<"Enter the processSizes :: ";
-for(int i=0;i<n;i++)
+for(int i=0;i<=n;i++)
 {
 cin>>processSize[i];
 }
