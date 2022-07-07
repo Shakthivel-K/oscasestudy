@@ -4,6 +4,7 @@
 #include <string.h>
 #include <unistd.h>
 pthread_t tid[2];
+int count;
 pthread_mutex_t lock;
 void *try(void *arg)
 {
